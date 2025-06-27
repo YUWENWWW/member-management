@@ -1,6 +1,6 @@
-package com.yuwenwww.membermangement.repository;
+package com.yuwenwww.membermanagement.repository;
 
-import com.yuwenwww.membermangement.entity.Member;
+import com.yuwenwww.membermanagement.entity.Member;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package com.yuwenwww.membermangement;
+package com.yuwenwww.membermanagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

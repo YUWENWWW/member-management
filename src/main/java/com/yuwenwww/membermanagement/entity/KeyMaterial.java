@@ -1,4 +1,4 @@
-package com.yuwenwww.membermangement.entity;
+package com.yuwenwww.membermanagement.entity;
 
 import jakarta.persistence.*;
 

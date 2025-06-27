@@ -1,9 +1,9 @@
-package com.yuwenwww.membermangement.controller;
+package com.yuwenwww.membermanagement.controller;
 
-import com.yuwenwww.membermangement.entity.Member;
-import com.yuwenwww.membermangement.service.MemberService;
-import com.yuwenwww.membermangement.dto.RegisterRequest; // 引入新的 DTO
-import com.yuwenwww.membermangement.dto.MemberProfileResponse; // 引入新的 DTO
+import com.yuwenwww.membermanagement.entity.Member;
+import com.yuwenwww.membermanagement.service.MemberService;
+import com.yuwenwww.membermanagement.dto.RegisterRequest; // 引入新的 DTO
+import com.yuwenwww.membermanagement.dto.MemberProfileResponse; // 引入新的 DTO
 import jakarta.validation.Valid; // 引入驗證註解
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

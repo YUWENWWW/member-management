@@ -1,7 +1,7 @@
-package com.yuwenwww.membermangement.config;
+package com.yuwenwww.membermanagement.config;
 
 
-import com.yuwenwww.membermangement.repository.MemberRepository;
+import com.yuwenwww.membermanagement.repository.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -10,7 +10,6 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
 import org.springframework.security.core.userdetails.User;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -38,9 +37,9 @@ public class SecurityConfig {
     public UserDetailsService userDetailsService() {
         return username -> {
             // 首先嘗試從資料庫載入用戶
-            Optional<com.yuwenwww.membermangement.entity.Member> memberOptional = memberRepository.findByUsername(username);
+            Optional<com.yuwenwww.membermanagement.entity.Member> memberOptional = memberRepository.findByUsername(username);
             if (memberOptional.isPresent()) {
-                com.yuwenwww.membermangement.entity.Member member = memberOptional.get();
+                com.yuwenwww.membermanagement.entity.Member member = memberOptional.get();
                 return User.builder()
                         .username(member.getUsername())
                         .password(member.getPassword())

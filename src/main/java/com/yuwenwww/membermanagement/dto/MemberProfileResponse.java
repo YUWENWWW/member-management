@@ -1,4 +1,4 @@
-package com.yuwenwww.membermangement.dto;
+package com.yuwenwww.membermanagement.dto;
 
 
 import java.sql.Timestamp;

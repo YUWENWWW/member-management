@@ -1,7 +1,7 @@
-package com.yuwenwww.membermangement.config;
+package com.yuwenwww.membermanagement.config;
 
-import com.yuwenwww.membermangement.entity.KeyMaterial;
-import com.yuwenwww.membermangement.repository.KeyMaterialRepository;
+import com.yuwenwww.membermanagement.entity.KeyMaterial;
+import com.yuwenwww.membermanagement.repository.KeyMaterialRepository;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;

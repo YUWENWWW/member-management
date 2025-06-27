@@ -1,4 +1,4 @@
-package com.yuwenwww.membermangement.dto;
+package com.yuwenwww.membermanagement.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

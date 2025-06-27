@@ -1,6 +1,6 @@
-package com.yuwenwww.membermangement.repository;
+package com.yuwenwww.membermanagement.repository;
 
-import com.yuwenwww.membermangement.entity.KeyMaterial; // 引入正確的 KeyMaterial 實體
+import com.yuwenwww.membermanagement.entity.KeyMaterial; // 引入正確的 KeyMaterial 實體
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

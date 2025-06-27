@@ -1,9 +1,9 @@
-package com.yuwenwww.membermangement.service;
+package com.yuwenwww.membermanagement.service;
 
-import com.yuwenwww.membermangement.entity.Member;
-import com.yuwenwww.membermangement.entity.KeyMaterial; // 引入 KeyMaterial
-import com.yuwenwww.membermangement.repository.MemberRepository;
-import com.yuwenwww.membermangement.repository.KeyMaterialRepository; // 引入 KeyMaterialRepository
+import com.yuwenwww.membermanagement.entity.Member;
+import com.yuwenwww.membermanagement.entity.KeyMaterial; // 引入 KeyMaterial
+import com.yuwenwww.membermanagement.repository.MemberRepository;
+import com.yuwenwww.membermanagement.repository.KeyMaterialRepository; // 引入 KeyMaterialRepository
 
 import org.bouncycastle.jce.provider.BouncyCastleProvider; // 引入 Bouncy Castle
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +17,6 @@ import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 import java.security.SecureRandom;
 import java.security.Security;
-import java.util.Base64;
 import java.util.Optional;
 
 @Service
